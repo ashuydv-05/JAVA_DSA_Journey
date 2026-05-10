@@ -7,14 +7,14 @@ public class fact {
             fac=fac*i;
             
         }
-        System.out.print("Factorial of the above entered number is "+ fac);
+        //System.out.print("Factorial of the above entered number is "+ fac);
         return fac;
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number to get the factorial");
         int num= sc.nextInt();
-        fact(num);  
+        System.out.println(fact(num));  
 
     }
     

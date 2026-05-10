@@ -1,0 +1,14 @@
+package sorting;
+import java.util.Arrays;
+import java.util.Collections;
+public class inbuilt {
+    public static void main(String[] args) {
+        Integer arr[] = {4, 6, 7, 2, 3, 1};
+        //Arrays.sort(arr);
+        Arrays.sort(arr,Collections.reverseOrder());
+        // Print the sorted array
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+}
