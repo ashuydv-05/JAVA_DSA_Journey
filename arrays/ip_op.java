@@ -5,7 +5,6 @@ public class ip_op {
         for(int i=0;i<=marks.length;i++){
             marks[i]=marks[i]+1;
         }
-
         return marks;
     }
     public static void main(String args[]){

@@ -1,6 +1,6 @@
 package array_list;
 import java.util.*;
-import java.ArrayList;
+// import java.ArrayList;
 public class basic {
     // TAKING INPUT TO ARRAYLIST
     //
@@ -21,6 +21,8 @@ public class basic {
     arr.add(20);
     arr.add(50);
     arr.set(1,30); //arr[1]=30
+
+    //IMPORTANT
     int n = arr.size(); //arr.length
     System.out.println(arr.get(0));
     for(int i=0;i<n;i++){
